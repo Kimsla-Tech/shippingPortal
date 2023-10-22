@@ -1,9 +1,10 @@
-# WELCOME TO KIMSLA-shippingPortal
+
+# WELCOME TO KIMSLA-shippingPortal development branch
 
 ## Overview
 
-- This is the Main branch set up for Production
-- Only when the product is ready for review should there be need to use this branch
+- This is the development branch set up for development
+- Only development process can be done in this branch
 - two folders have been set up [frontend](/frontEnd) and [backend](/backEnd) for the respective developers
 - Instructions have been placed in each folder for the respective developers
 - Please ensure instructions below
