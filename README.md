@@ -12,16 +12,17 @@
 ## branches 
 - there are three branches
     - **dev** - this is the branch for development(what we are to work on)  
-    - **feat/auth** - for special features and authentication
     - **main** - other branches will be merged to this branch whe development is done. 
 
 ## Instructions
 - clone the main git repo into your local machine
     - git clone https://github.com/Kimsla-Tech/shippingPortal.git
-    - run npm install
+    - cd into the frontEnd folder `cd frontEnd`
+    - then run the command  `npm install`
     - create your branch using `git checkout -b branchName`
+    - to start the development server `npm run dev`
     - add your changes `git add ....`
-    - pull from dev branch before pushing `git pull dev`
+    - pull from dev branch before pushing `git pull origin dev`
     - push your changes to origin `git push -u origin branchName` 
     - create a pull request from your branch to the dev branch
 
