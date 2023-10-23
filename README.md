@@ -18,12 +18,12 @@
 ## Instructions
 - clone the main git repo into your local machine
     - git clone https://github.com/Kimsla-Tech/shippingPortal.git
-    - checkout to dev branch
-    - feel free to create your own branch from dev branch
+    - run npm install
+    - create your branch using 'git checkout -b <branchName>'
     - add your changes `git add ....`
     - pull from dev branch before pushing `git pull dev`
     - push your changes to origin `git push -u origin branchName` 
-    - create a pull request on dev branch
+    - create a pull request from your branch to the dev branch
 
 ## extra info 
 **NOTE** 
