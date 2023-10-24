@@ -1,0 +1,10 @@
+.nav-link {
+   border-bottom: 2px solid transparent;   
+  transition: border-color 0.3s; 
+}
+
+.nav-link:hover,
+.nav-link.active {
+  border-color: #007bff; 
+   color:#228BE6;
+}

@@ -12,7 +12,7 @@ export default {
         tertiary: '#D9D9D9',
       },
       backgroundImage: {
-        'img': "url('/images/authImg.png')",
+        'authBg': "url('/images/authBg.png')",
       },
     },
   },
