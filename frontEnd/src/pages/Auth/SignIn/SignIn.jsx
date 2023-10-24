@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom"
 import { AiOutlineEye, AiOutlineEyeInvisible, AiOutlineLock, AiOutlineMail } from 'react-icons/ai'
-import './signup.css'
+import '../SignUp/signup.css'
 import { FacebookLogo, InstagramLogo, TwitterLogo } from "../../../utils/Icons";
 import { FiPhoneCall } from "react-icons/fi";
 
-const SignUp = () => {
+const SignIn = () => {
 	const [passwordVisible, setPasswordVisible] = useState(false);
 
 	const togglePasswordVisibility = () => {
@@ -65,25 +65,12 @@ const SignUp = () => {
 								<p>Business Account</p>
 							</div>
 
-							<form className="space-y-5" >
-								<div>
-									<label htmlFor="fullName" className="block font-semibold text-base">Full Name</label>
-									<input type="text" placeholder="Full Name" className="w-full outline-0 border p-2 border-[#228BE6] rounded-lg " />
-								</div>
+							<form className="space-y-8" >
 								<div>
 									<label htmlFor="email" className="block font-semibold text-base">Email Address</label>
 									<input type="text" placeholder="Email" className="w-full outline-0 border p-2 border-[#228BE6] rounded-lg " />
 								</div>
-								<div className="flex gap-5">
-									<div className="flex gap-3">
-										<input type="radio" name="gender" id="male" />
-										<label htmlFor="male" className="ml-2 block font-semibold text-base">Male</label>
-									</div>
-									<div className="flex gap-3">
-										<input type="radio" name="gender" id="female" />
-										<label htmlFor="male" className="ml-2 block font-semibold text-base">Female</label>
-									</div>
-								</div>
+
 
 								<div>
 									<label htmlFor="password" className="block font-semibold text-base">Password</label>
@@ -108,7 +95,6 @@ const SignUp = () => {
 								</div>
 
 
-
 								<div className="py-2">
 									<button type="submit" className="bg-secondary hover:bg-blue-900 transition-all p-2 text-base font-semibold text-white w-full rounded-lg">Create an account</button>
 								</div>
@@ -123,18 +109,13 @@ const SignUp = () => {
 								<p>Secure</p>
 								<AiOutlineLock />
 							</div>
-
-
 						</div>
-
 					</div>
 				</div>
-
-
 			</div>
 
 		</div >
 	)
 }
 
-export default SignUp
+export default SignIn
